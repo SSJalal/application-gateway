@@ -1,0 +1,27 @@
+{
+  "name": "application-gateway",
+  "version": "1.0.0",
+  "description": "Basic Application Gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SSJalal/application-gateway.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SSJalal/application-gateway/issues"
+  },
+  "homepage": "https://github.com/SSJalal/application-gateway#readme",
+  "dependencies": {
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
